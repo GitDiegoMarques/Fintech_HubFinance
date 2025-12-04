@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="CSS\style.css" rel="stylesheet">
+    <title>HUB FINANCE</title>
+</head>
+
+<body class="bg-light">
+    
+    <header class="header-section p-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <span class="badge bg-secondary-light">Diego Marques</span>
+                </div>
+                <div class="col-6 text-end">
+                    <i class="fas fa-bell me-3"></i>
+                    <i class="fas fa-cog me-3"></i>
+                    <i class="fas fa-sign-out-alt"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid main-content px-3">
+        
+        <section class="saldo-section mb-4">
+            <div class="card border-0">
+                <div class="card-body">
+                    <p class="mb-2"><strong>Saldo:</strong></p>
+                    <h3 class="text-primary">R$ 250,00</h3>
+                </div>
+            </div>
+        </section>
+
+        <div class="tabs-section mb-4">
+            <div class="row g-2">
+                <div class="col-6">
+                    <div class="tab-card text-center">
+                        <i class="fas fa-gift fa-2x mb-2"></i>
+                        <p class="mb-0">PIX</p>
+                        <small>Receber e Enviar</small>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tab-card text-center active">
+                        <i class="fas fa-arrow-up fa-2x mb-2"></i>
+                        <p class="mb-0"><strong>Home</strong></p>
+                        <small>Broker</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="extrato-section">
+            <h6 class="mb-3 fw-bold">Extrato:</h6>
+
+            <div class="data-header mb-3">
+                <span class="date-label">Ter14/10  <Strong>Saldo Dia:</Strong></span>
+                <span class="amount text-end">R$ 250,00</span>
+            </div>
+
+            <div class="transaction-item mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-chart-line me-3"></i>
+                    <div class="flex-grow-1">
+                        <p class="mb-0"><strong>Crédito</strong></p>
+                        <small class="text-muted">Provento PETR4</small>
+                    </div>
+                    <span class="amount-badge">R$ 250,00</span>
+                </div>
+            </div>
+
+            <div class="transaction-item mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-chart-line me-3"></i>
+                    <div class="flex-grow-1">
+                        <p class="mb-0"><strong>Despesas</strong></p>
+                        <small class="text-muted">Conta de luz</small>
+                    </div>
+                    <span class="amount-badge text-danger">R$ 120,00</span>
+                </div>
+            </div>
+
+            <div class="transaction-item mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-chart-line me-3"></i>
+                    <div class="flex-grow-1">
+                        <p class="mb-0"><strong>Rendimentos</strong></p>
+                        <small class="text-muted">CDI</small>
+                    </div>
+                    <span class="amount-badge">R$ 100,00</span>
+                </div>
+            </div>
+
+            <div class="data-footer mb-4">
+                <span class="date-label">Seg13/10  <Strong>Saldo Dia:</Strong></span>
+                <span class="amount">R$ 20,00</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bottom-nav">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col">
+                    <a href="#" class="nav-link active">
+                        <i class="fas fa-home fa-lg mb-2"></i>
+                        <p class="small mb-0">Início</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-dollar-sign fa-lg mb-2"></i>
+                        <p class="small mb-0">+ Saldo</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-thumbs-down fa-lg mb-2"></i>
+                        <p class="small mb-0">Despesas</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-bars fa-lg mb-2"></i>
+                        <p class="small mb-0">Serviços</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
